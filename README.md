@@ -1,3 +1,32 @@
+
+The core classes, functions, and methods that will be necessary for the ecommerce webapp are as follows:
+
+1. App.js: This is the entry point of the React application. It will contain the main component and handle routing.
+
+2. Auth.js: This class will handle user authentication using Firebase. It will have methods for email and password sign in, sign up, sign out, and sign in with Google.
+
+3. Database.js: This class will handle database operations using Firebase Firestore. It will have methods for retrieving and updating user details, order history, and product information.
+
+4. Product.js: This class will represent a single product. It will have properties for the product name, image, details, price per unit, cost per unit, and quantity.
+
+5. Cart.js: This class will handle the user's shopping cart. It will have methods for adding products to the cart, updating quantities, and removing products.
+
+6. Order.js: This class will represent a single order. It will have properties for the order ID, user ID, products, total price, and order status.
+
+7. OrderHistory.js: This class will handle the user's order history. It will have methods for retrieving and displaying the user's past orders.
+
+8. ProductList.js: This class will display a list of products. It will fetch the product data from the database and render each product as a separate component.
+
+9. ProductDetails.js: This class will display detailed information about a specific product. It will fetch the product data from the database and allow the user to select the quantity and add the product to the cart.
+
+10. Navbar.js: This class will display the navigation bar at the top of the webapp. It will contain links to different pages and display the user's authentication status.
+
+11. Footer.js: This class will display the footer at the bottom of the webapp. It will contain links to social media and other relevant information.
+
+12. Routes.js: This file will define the routes for the webapp using React Router. It will map each route to the corresponding component.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
